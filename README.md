@@ -151,15 +151,7 @@ Now that you have your labeled data, you can start with creating the training da
 
 Open WinSCP and as the Server IP put in: 10.103.43.104 Port: 22
 
-Enter your account name (without @uni-bremen.de) and password, save it and connect to the server (Note: It only works within the university network or if you use the university VPN). Look at the following photo to get an idea how it should look like.
-
-
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.jpg "image_tooltip")
-
+Enter your account name (without @uni-bremen.de) and password, save it and connect to the server (Note: It only works within the university network or if you use the university VPN). 
 
 After you successfully connect to the server you can see your home directory. You can edit everything within winscp. 
 
@@ -229,14 +221,7 @@ For inexperienced users, we created additional jupyter notebooks to follow along
 4. Save session
 
 
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image2.jpg "image_tooltip")
-
-
-
+Now you can set up the tunnel:
 
 1. Go to connection → SSG → Tunnels
 2. Enter 1238 at source port and 127.0.0.1:1238 at destination and click “add”
@@ -259,9 +244,7 @@ Mac users please follow these steps:
 2. enter the following command: `jupyter notebook --no-browser --port=8889`
 3. Open a new terminal tab/window and type in the following command: 
 
-    ```
-ssh -N -f -L localhost:8888:localhost:8889 university_account_name@hpc.dsc.uni-bremen.de
-```
+    `ssh -N -f -L localhost:8888:localhost:8889 university_account_name@hpc.dsc.uni-bremen.de`
 
 
 4. Go to your browser and enter “localhost:8888”. Now, jupyter notebook should open
