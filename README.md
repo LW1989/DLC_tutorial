@@ -14,6 +14,7 @@ The original papers can be found at:
 * [https://www.nature.com/articles/s41593-018-0209-y](https://www.nature.com/articles/s41593-018-0209-y) 
 * [https://www.nature.com/articles/s41596-019-0176-0](https://www.nature.com/articles/s41596-019-0176-0) 
 
+The tutorials are also available as PDF files in the PDF_Tutorial folder
 
 ## Step 1: You need to have Python installed
 
@@ -69,6 +70,8 @@ To get the location right, a cool trick is to drag the folder and drop it into T
 * Now you should see (“nameofenv”) on the left of your terminal screen, i.e. (DEEPLABCUT) YourName-MacBook. NOTE: no need to run pip install deeplabcut, as it is already installed!!! :)
 
 **<span style="text-decoration:underline;">**Great, that's it! DeepLabCut is installed!**</span>**
+
+For a guide about how to use DLC please check the PDF_Tutorial folder
 
 
 ## Pro Tips:
