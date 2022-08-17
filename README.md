@@ -105,18 +105,13 @@ If you want to cut the video yourself with the script please follow these steps,
     1. For windows users please follow these instructions: [https://www.geeksforgeeks.org/how-to-install-ffmpeg-on-windows/](https://www.geeksforgeeks.org/how-to-install-ffmpeg-on-windows/) 
     2. For Mac users install ffmpeg through Homebrew: [​Homebrew](http://brew.sh/) is a command-line package manager, which is similar to apt-get on popular Linux distributions. In order to use it, you need to install brew first, if you haven't already. Open the terminal and enter the following command:
 
-        ```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-```
+        `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
 
 
 
         Follow the on-screen instructions. This will take a few minutes while it's installing the necessary developer tools for macOS. Then, run:
-
-
-        ```
-brew install ffmpeg
-```
+        
+        `brew install ffmpeg`
 
 
 2. Copy the python script “video_cutting_script.py” to the folder where your videos are located.
@@ -136,7 +131,7 @@ Now you successfully installed DeepLabCut you want to start using it. For this y
 
 
 1. Create a folder for the tutorial files
-2. Open the terminal/Anaconda prompt and navigate to that folder (cd **path_to_the_folder**)
+2. Open the terminal/Anaconda prompt and navigate to that folder (`cd **path_to_the_folder**`)
 3. Type in `git clone https://github.com/LW1989/DLC_tutorial.git`
 4. Activate the DLC environment by typing:
     1. MacOS: `conda activate nameoftheenv` (eg. DEEPLABCUT)
