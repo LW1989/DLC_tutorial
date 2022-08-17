@@ -117,7 +117,7 @@ If you want to cut the video yourself with the script please follow these steps,
 2. Copy the python script “video_cutting_script.py” to the folder where your videos are located.
 3. Open terminal or anaconda command prompt and go to that folder using the command: 
 
-    cd ** full path of the folder**
+    `cd ** full path of the folder**´
 
 4. Type python “video_cutting_script.py. The script will now ask you for the directory. Type it or copy the path and do not forget the “/” at the end. (**<span style="text-decoration:underline;">Note:</span>** For Windows users use “/” instead of “\”)
 5. The script will now ask you how long the trial is. Type it in.
