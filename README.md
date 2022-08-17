@@ -188,9 +188,9 @@ Next you need to connect to the server and install DeepLabCut:
 
 1. Open Putty/Terminal  and connect to the server (IP: 10.103.43.104)
 2. Type in the following commands:
-    1. module load python
-    2. module load anaconda
-    3. module load cuda
+    1. `module load python`
+    2. `module load anaconda`
+    3. `module load cuda`
 3. Create a folder where you want to install DLC: `mkdir **name_of_the_folder**`
 4. Type the following command:  `cd **Full path of the folder**`
 5. Type: `git clone https://github.com/DeepLabCut/DeepLabCut.git` 
@@ -227,17 +227,17 @@ Now you can set up the tunnel:
 2. Enter 1238 at source port and 127.0.0.1:1238 at destination and click “add”
 3. Go back to session and save
 4. Open a session and type the following commands in that order:
-    1. module load python
-    2. module load anaconda
-    3. module load cuda
-    4. conda activate DEEPLABCUT
+    1. `module load python`
+    2. `module load anaconda`
+    3. `module load cuda`
+    4. `conda activate DEEPLABCUT`
     5. `export LD_LIBRARY_PATH="$CONDA_PREFIX/lib"` 
     6. `jupyter-notebook --no-browser --port=1238`
 5. Copy one of the URLS at the bottom into your local browser
 6. Now navigate to the Demo_Notebook_2 to create the training dataset
 
-Mac users please follow these steps:
 
+Mac users please follow these steps:
 
 
 1. connect to the server via the terminal
@@ -265,9 +265,7 @@ Now that you created the training data set you are ready to finally train your n
 ([https://slurm.schedmd.com/documentation.html](https://slurm.schedmd.com/documentation.html)). In simplified terms: It manages the different requests for processing time on the CPU as well as the GPU cluster. You submit a job that is put into a queue. Afterwards you can log out and check later that day or the next day if your job has already finished. You can interact with it through the terminal on the server or through the jupyter notebook. For the latter option you will need to install slurm-magic ([https://github.com/NERSC/slurm-magic](https://github.com/NERSC/slurm-magic)). To do that connect to the server via PuTTY/Terminal and within your base environment type:
 
 
-```
-pip install git+https://github.com/NERSC/slurm-magic.git
-```
+`pip install git+https://github.com/NERSC/slurm-magic.git`
 
 
 **<span style="text-decoration:underline;">Note:</span>** For whatever reason (I do not have any idea why) the following steps need to be done within your base environment and NOT within the DEEPLABCUT environment. If you are still in your DEEPLABCUT environment type: `conda activate base`  
