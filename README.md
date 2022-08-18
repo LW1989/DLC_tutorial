@@ -9,12 +9,12 @@ DeepLabCut is a toolbox for markerless pose estimation of animals performing var
 
 The original papers can be found at:
 
-
-
 * [https://www.nature.com/articles/s41593-018-0209-y](https://www.nature.com/articles/s41593-018-0209-y) 
 * [https://www.nature.com/articles/s41596-019-0176-0](https://www.nature.com/articles/s41596-019-0176-0) 
 
-The tutorials are also available as PDF files in the PDF_Tutorial folder
+The tutorials are also available as PDF files in the PDF_Tutorial folder.
+
+A tutorial about how to use DLC can be found in the wiki of this repository: https://github.com/LW1989/DLC_tutorial/wiki/How-to-use-DeepLabCut 
 
 ## Step 1: You need to have Python installed
 
