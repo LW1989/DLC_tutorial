@@ -88,6 +88,9 @@ FFMPEG: A few Windows users report needing to install re-install ffmpeg (after w
 [https://video.stackexchange.com/questions/20495/how-do-i-set-up-and-use-ffmpeg-in-windows](https://video.stackexchange.com/questions/20495/how-do-i-set-up-and-use-ffmpeg-in-windows)  
 
 
+# How to use DeepLabCut
+
+A tutorial about how to use DLC can be found in the wiki of this repository: https://github.com/LW1989/DLC_tutorial/wiki/How-to-use-DeepLabCut 
 
 
 
