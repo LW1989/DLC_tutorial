@@ -47,7 +47,7 @@ Anaconda is perhaps the easiest way to install Python and additional packages ac
 * Install Git From an Installer: git-scm is a popular and recommended resource for downloading Git on a Mac. The advantage of downloading Git from git-scm is that your download automatically starts with the latest version of Git. The download source is the same macOS Git Installer as referenced in the steps above. Open the command prompt "terminal" and type `git version` to verify Git was installed.
 
 
-## Step 2: Get DLC from GitHub
+## Step 3: Get DLC from GitHub
 
 
 
